@@ -1,0 +1,67 @@
+git config --global user.email "Pallavi@gmai.com"
+git config --global user.name "Pallavi"
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice
+$ git init
+Initialized empty Git repository in C:/Users/Kiran Pasnur/Desktop/DevopsPractice/.git/
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git add File1
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git commit -m
+error: switch `m' requires a value
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git commit -m "added File1"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Kiran Pasnur@DESKTOP-2IS0SNL.(none)')
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git config --global user.name "FIRST_NAME LAST_NAME"
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git config --global user.email "MY_NAME@example.com"
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git config --global user.email "MY_NAME@example.com"
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git config --global user.email"Pallavi"
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git config --global user.email "you@example.com"
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$   git config --global user.name "Your Name"
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git config --global user.email "Pallavi@gmai.com"
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git config --global user.name "Pallavi"~
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git commit -m "added File1"
+[master (root-commit) e9b2395] added File1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 File1
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Kiran Pasnur@DESKTOP-2IS0SNL MINGW64 ~/Desktop/DevopsPractice (master)
+$
